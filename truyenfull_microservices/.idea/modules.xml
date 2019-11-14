@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/truyenfull.API/truyenfull.API.iml" filepath="$PROJECT_DIR$/truyenfull.API/truyenfull.API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/truyenfull.crawler/truyenfull.crawler.iml" filepath="$PROJECT_DIR$/truyenfull.crawler/truyenfull.crawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/truyenfull.data/truyenfull.data.iml" filepath="$PROJECT_DIR$/truyenfull.data/truyenfull.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/truyenfull.lib/truyenfull.lib.iml" filepath="$PROJECT_DIR$/truyenfull.lib/truyenfull.lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/truyenfull.lib_data/truyenfull.lib_data.iml" filepath="$PROJECT_DIR$/truyenfull.lib_data/truyenfull.lib_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/truyenfull_microservices.iml" filepath="$PROJECT_DIR$/.idea/truyenfull_microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/truyenfull.crawler/truyenfull_restapi.iml" filepath="$PROJECT_DIR$/truyenfull.crawler/truyenfull_restapi.iml" />
+    </modules>
+  </component>
+</project>

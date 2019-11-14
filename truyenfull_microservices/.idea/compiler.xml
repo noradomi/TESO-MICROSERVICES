@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="truyenfull.API" />
+        <module name="truyenfull.crawler" />
+        <module name="truyenfull.data" />
+        <module name="truyenfull.lib" />
+        <module name="truyenfull.lib_data" />
+        <module name="truyenfull_restapi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="truyenfull.API" target="1.8" />
+      <module name="truyenfull.apiiiiiiiiii" target="1.8" />
+      <module name="truyenfull.crawler" target="1.8" />
+      <module name="truyenfull.data" target="1.8" />
+      <module name="truyenfull.lib" target="6" />
+      <module name="truyenfull.lib_data" target="6" />
+      <module name="truyenfull_restapi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="truyenfull.API" options="-parameters" />
+      <module name="truyenfull.apiiiiiiiiii" options="-parameters" />
+      <module name="truyenfull.crawler" options="-parameters" />
+      <module name="truyenfull.data" options="-parameters" />
+      <module name="truyenfull_restapi" options="-parameters" />
+    </option>
+  </component>
+</project>
