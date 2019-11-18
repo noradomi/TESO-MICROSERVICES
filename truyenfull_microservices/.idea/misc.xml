@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/truyenfull.api/pom.xml" />
         <option value="$PROJECT_DIR$/truyenfull.data/pom.xml" />
         <option value="$PROJECT_DIR$/truyenfull.lib_data/pom.xml" />
+        <option value="$PROJECT_DIR$/truyenfull.data_test/pom.xml" />
       </list>
     </option>
   </component>

@@ -2,6 +2,9 @@ package vn.hcmus.fit.truyenfull.crawler.model;
 
 
 import lombok.Data;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +36,7 @@ public class Comic {
 
     //    Mapping voi Category
     @ManyToMany(cascade = CascadeType.MERGE)
+    @LazyCollection(LazyCollectionOption.FALSE)
     @JoinTable(name="comic_category",
             joinColumns = @JoinColumn(name = "comic_id"),
             inverseJoinColumns = @JoinColumn(name = "category_id"))

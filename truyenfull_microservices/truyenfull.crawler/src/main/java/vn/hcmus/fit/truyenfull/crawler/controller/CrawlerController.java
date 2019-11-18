@@ -191,14 +191,15 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
                 ? document.selectFirst(selector.dataFrom()).text()
                 : "null";
         crawledComic.setSource(source);
-
+//        comicRepsitory.save(crawledComic);
 //      Set các thể loại cho comic
         System.out.println("Set thể loại.");
         Elements genres = document.select(selector.category());
         for (Element genre : genres) {
             Category category =  categoryRepository.findByName(genre.attr("title"));
             System.out.println("Set từng thể loại cho truyện");
-            category.getComicList().add(crawledComic);
+//            category.getComicList().add(crawledComic);
+            crawledComic.getCategoryList().add(category);
         }
         comicRepsitory.save(crawledComic);
         System.out.println("Set xong.");

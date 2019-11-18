@@ -2,6 +2,8 @@ package vn.hcmus.fit.truyenfull.data.model;
 
 
 import lombok.Data;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -33,9 +35,24 @@ public class Comic {
     private List<Chapter> chapterList = new ArrayList<>();
 
     //    Mapping voi Category
-    @ManyToMany(cascade = CascadeType.MERGE)
+    @ManyToMany(cascade = {
+            CascadeType.PERSIST,
+            CascadeType.MERGE
+    })
+    @LazyCollection(LazyCollectionOption.FALSE)
     @JoinTable(name="comic_category",
             joinColumns = @JoinColumn(name = "comic_id"),
             inverseJoinColumns = @JoinColumn(name = "category_id"))
     private List<Category> categoryList = new ArrayList<>();
+
+    public Comic() {
+    }
+
+    public Comic(String name, String urlname, String author, String source, String status) {
+        this.name = name;
+        this.urlname = urlname;
+        this.author = author;
+        this.source = source;
+        this.status = status;
+    }
 }

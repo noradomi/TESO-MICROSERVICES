@@ -23,9 +23,12 @@ public class Category {
     private String urlname;
 
     //    @ManyToMany(mappedBy = "categoryList")
-    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinTable(name="comic_category",
-            joinColumns = @JoinColumn(name = "category_id"),
-            inverseJoinColumns = @JoinColumn(name = "comic_id"))
+    @ManyToMany(fetch = FetchType.EAGER,cascade = {
+            CascadeType.PERSIST,
+            CascadeType.MERGE
+    },mappedBy = "categoryList")
+//    @JoinTable(name="comic_category",
+//            joinColumns = @JoinColumn(name = "category_id"),
+//            inverseJoinColumns = @JoinColumn(name = "comic_id"))
     private List<Comic> comicList = new ArrayList<>();
 }

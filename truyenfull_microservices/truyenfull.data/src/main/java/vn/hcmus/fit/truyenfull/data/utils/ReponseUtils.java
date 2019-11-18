@@ -58,7 +58,7 @@ public class ReponseUtils {
         node.put("source",comic.getSource());
         node.put("status",comic.getStatus());
         node.set("chapter-list",returnListChapterWithoutContent(comic.getChapterList()));
-//        node.put("category-list",returnListNameCategory(comic.getCategoryList()));
+        node.set("category-list",returnListNameCategory(comic.getCategoryList()));
         return node;
     }
 

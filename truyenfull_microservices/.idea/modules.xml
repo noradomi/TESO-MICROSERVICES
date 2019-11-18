@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/truyenfull.API/truyenfull.API.iml" filepath="$PROJECT_DIR$/truyenfull.API/truyenfull.API.iml" />
       <module fileurl="file://$PROJECT_DIR$/truyenfull.crawler/truyenfull.crawler.iml" filepath="$PROJECT_DIR$/truyenfull.crawler/truyenfull.crawler.iml" />
       <module fileurl="file://$PROJECT_DIR$/truyenfull.data/truyenfull.data.iml" filepath="$PROJECT_DIR$/truyenfull.data/truyenfull.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/truyenfull.data_test/truyenfull.data_test.iml" filepath="$PROJECT_DIR$/truyenfull.data_test/truyenfull.data_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/truyenfull.lib/truyenfull.lib.iml" filepath="$PROJECT_DIR$/truyenfull.lib/truyenfull.lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/truyenfull.lib_data/truyenfull.lib_data.iml" filepath="$PROJECT_DIR$/truyenfull.lib_data/truyenfull.lib_data.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/truyenfull_microservices.iml" filepath="$PROJECT_DIR$/.idea/truyenfull_microservices.iml" />
