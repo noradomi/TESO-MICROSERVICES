@@ -31,4 +31,13 @@ public class Category {
 //            joinColumns = @JoinColumn(name = "category_id"),
 //            inverseJoinColumns = @JoinColumn(name = "comic_id"))
     private List<Comic> comicList = new ArrayList<>();
+
+    public Category() {
+    }
+
+    public Category(String name, String urlname, List<Comic> comicList) {
+        this.name = name;
+        this.urlname = urlname;
+        this.comicList = comicList;
+    }
 }

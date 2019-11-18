@@ -48,11 +48,13 @@ public class Comic {
     public Comic() {
     }
 
-    public Comic(String name, String urlname, String author, String source, String status) {
+    public Comic(String name, String urlname, String author, String source, String status, List<Chapter> chapterList, List<Category> categoryList) {
         this.name = name;
         this.urlname = urlname;
         this.author = author;
         this.source = source;
         this.status = status;
+        this.chapterList = chapterList;
+        this.categoryList = categoryList;
     }
 }

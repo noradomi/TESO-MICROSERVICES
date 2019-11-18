@@ -5,10 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import vn.hcmus.fit.truyenfull.lib_data.tComic;
+import vn.hcmus.fit.truyenfull.lib_data.utils.MappingUtils;
 import vn.hcmus.fit.truyenfullapi.config.TruyenfullClientCrawler;
 import vn.hcmus.fit.truyenfullapi.config.TruyenfullClientData;
 import vn.hcmus.fit.truyenfullapi.model.Comic;
-import vn.hcmus.fit.truyenfullapi.utils.MappingUtils;
+import vn.hcmus.fit.truyenfullapi.utils.MappingAPIUtils;
+
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
@@ -51,11 +53,13 @@ public class TruyenfullControllerAPI {
     @PutMapping(value = "/updateComic/{id}",produces = "application/json")
     public  String UPDATEComic(@PathVariable(value = "id") Long comicId,
                                @Valid @RequestBody Comic comicDetails ) throws TException {
-        return client_data.updateComic(comicId, MappingUtils.db2thrift_Comic(comicDetails));
+        return client_data.updateComic(comicId, MappingUtils.convertObject(comicDetails,tComic.class));
     }
 
     @PostMapping(value = "/addComic",produces = "application/json")
     public String ADDComic(@Valid @RequestBody Comic newComic) throws TException {
-        return client_data.addComic(MappingUtils.db2thrift_Comic(newComic));
+        tComic t = MappingAPIUtils.db2thrift_Comic(newComic);
+        System.out.println("is Here");
+        return client_data.addComic(t);
     }
 }

@@ -23,4 +23,14 @@ public class Chapter {
 
     @ManyToOne
     private Comic comic;
+
+    public Chapter() {
+    }
+
+    public Chapter(Long index, String name, String content, Comic comic) {
+        this.index = index;
+        this.name = name;
+        this.content = content;
+        this.comic = comic;
+    }
 }

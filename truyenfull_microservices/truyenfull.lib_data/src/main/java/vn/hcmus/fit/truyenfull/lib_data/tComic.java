@@ -166,16 +166,22 @@ public class tComic implements org.apache.thrift.TBase<tComic, tComic._Fields>, 
 
   public tComic(
           java.lang.String name,
+          java.lang.String urlname,
           java.lang.String author,
           java.lang.String source,
-          java.lang.String status)
+          java.lang.String status,
+          java.util.List<tChapter> chapterList,
+          java.util.List<tCategory> categoryList)
   {
     this();
     setIdIsSet(true);
     this.name = name;
+    this.urlname = urlname;
     this.author = author;
     this.source = source;
     this.status = status;
+    this.chapterList = chapterList;
+    this.categoryList = categoryList;
   }
 
   /**

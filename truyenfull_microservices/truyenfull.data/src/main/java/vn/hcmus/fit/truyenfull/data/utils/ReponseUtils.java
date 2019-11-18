@@ -1,8 +1,10 @@
 package vn.hcmus.fit.truyenfull.data.utils;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import vn.hcmus.fit.truyenfull.data.constant.StatusCode;
 import vn.hcmus.fit.truyenfull.data.model.Category;
 import vn.hcmus.fit.truyenfull.data.model.Chapter;
 import vn.hcmus.fit.truyenfull.data.model.Comic;
@@ -42,6 +44,8 @@ public class ReponseUtils {
 
     //    Ham tra ve mot List<Chapter> voi Chapter khong bao gom Content
     public static ArrayNode returnListChapterWithoutContent(List<Chapter> chapters){
+        if(chapters == null)
+            return null;
         ArrayNode nodes = mapper.createArrayNode();
         for (Chapter chapter : chapters) {
             nodes.add((returnChapterWithoutContent(chapter)));
@@ -116,11 +120,46 @@ public static ObjectNode returnNameComic(Comic comic){
 
     //    Ham tra ve mot List Name <Comic>
     public static ArrayNode returnListNameCategory(List<Category> categories){
+        if(categories == null)
+            return null;
         ArrayNode nodes = mapper.createArrayNode();
         for (Category category : categories) {
             nodes.add((returnNameCategory(category)));
         }
         return nodes;
+    }
+
+    //  Các hàm xử lí response
+    public static String success(JsonNode body){
+        ObjectNode node = mapper.createObjectNode();
+        node.put(StatusCode.class.getSimpleName(), StatusCode.SUCCESS.getValue());
+        node.put("Message", StatusCode.SUCCESS.name());
+        node.put("Response",body);
+        return node.toString();
+    }
+
+    public static String NotFound(){
+        ObjectNode node = mapper.createObjectNode();
+        node.put(StatusCode.class.getSimpleName(), StatusCode.NOT_FOUND.getValue());
+        node.put("Message", StatusCode.NOT_FOUND.name());
+        node.put("Response","Nothing to show");
+        return node.toString();
+    }
+
+    public static String inValid(){
+        ObjectNode node = mapper.createObjectNode();
+        node.put(StatusCode.class.getSimpleName(), StatusCode.PARAMETER_INVALID.getValue());
+        node.put("Message", StatusCode.PARAMETER_INVALID.name());
+        node.put("Response","Missing some fileds!");
+        return node.toString();
+    }
+
+    public static String serverError(){
+        ObjectNode node = mapper.createObjectNode();
+        node.put(StatusCode.class.getSimpleName(), StatusCode.SERVER_ERROR.getValue());
+        node.put("Message", StatusCode.SERVER_ERROR.name());
+        node.put("Response","SERVER FAIL :(");
+        return node.toString();
     }
 
 }

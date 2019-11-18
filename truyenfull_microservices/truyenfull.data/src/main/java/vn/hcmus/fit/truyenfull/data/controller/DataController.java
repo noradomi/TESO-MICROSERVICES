@@ -1,7 +1,6 @@
 package vn.hcmus.fit.truyenfull.data.controller;
 
 import org.apache.thrift.TException;
-import org.apache.tomcat.util.http.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
@@ -9,10 +8,11 @@ import vn.hcmus.fit.truyenfull.data.model.Category;
 import vn.hcmus.fit.truyenfull.data.model.Comic;
 import vn.hcmus.fit.truyenfull.data.repository.CategoryRepository;
 import vn.hcmus.fit.truyenfull.data.repository.ComicRepositiory;
-import vn.hcmus.fit.truyenfull.data.utils.MappingUtils;
+import vn.hcmus.fit.truyenfull.data.utils.MappingDataUtils;
 import vn.hcmus.fit.truyenfull.data.utils.ReponseUtils;
 import vn.hcmus.fit.truyenfull.lib_data.TruyenFullDataService;
 import vn.hcmus.fit.truyenfull.lib_data.tComic;
+import vn.hcmus.fit.truyenfull.lib_data.utils.MappingUtils;
 
 import java.util.List;
 import java.util.Optional;
@@ -31,49 +31,74 @@ public class DataController implements TruyenFullDataService.Iface {
 
     @Override
     public String getAllComic() throws TException {
-        List<Comic> comics= comicRepositiory.findAll();
-        String response = ReponseUtils.returnListComic(comics).toString();
-        return response;
+        try {
+            List<Comic> comics= comicRepositiory.findAll();
+            return ReponseUtils.success(ReponseUtils.returnListComic(comics));
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ReponseUtils.serverError();
+        }
     }
 
     @Override
     public String getComicByName(String name) throws TException {
-        Comic comic = comicRepositiory.findByUrlname(name);
-        if(comic == null)
-            return "TÊN COMIC KHÔNG TỒN TẠI ^<>^.";
-        else{
-            String response = ReponseUtils.returnComic(comic).toString();
-            return response;
+        try {
+            Comic comic = comicRepositiory.findByUrlname(name);
+            if(comic == null)
+                return ReponseUtils.NotFound();
+            else{
+                return ReponseUtils.success(ReponseUtils.returnComic(comic));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ReponseUtils.serverError();
         }
     }
 
     @Override
     public String updateComic(long id, tComic comic) throws TException {
-        System.out.println("Toi day");
-        Comic updatedComic = MappingUtils.thrift2db_Comic(comic);
-        Comic oldComic = comicRepositiory.findById(new Long(id)).get();
+        try {
+            Comic updatedComic = MappingUtils.convertObject(comic,Comic.class);
+            Comic oldComic = comicRepositiory.findById(new Long(id)).get();
 
-        if(!StringUtils.isEmpty(updatedComic.getName()))
-            oldComic.setName(updatedComic.getName());
+            if(!StringUtils.isEmpty(updatedComic.getName()))
+                oldComic.setName(updatedComic.getName());
 
-        if(!StringUtils.isEmpty(updatedComic.getAuthor()))
-            oldComic.setAuthor(updatedComic.getAuthor());
+            if(!StringUtils.isEmpty(updatedComic.getAuthor()))
+                oldComic.setAuthor(updatedComic.getAuthor());
 
-        if(!StringUtils.isEmpty(updatedComic.getSource()));
+            if(!StringUtils.isEmpty(updatedComic.getSource()));
             oldComic.setSource(updatedComic.getSource());
 
-        if(!StringUtils.isEmpty(updatedComic.getStatus()))
-            oldComic.setStatus(updatedComic.getStatus());
+            if(!StringUtils.isEmpty(updatedComic.getStatus()))
+                oldComic.setStatus(updatedComic.getStatus());
 
-        comicRepositiory.save(oldComic);
-        return ReponseUtils.returnComic(oldComic).toString();
+            comicRepositiory.save(oldComic);
+            return ReponseUtils.success(ReponseUtils.returnComic(oldComic));
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ReponseUtils.serverError();
+        }
     }
 
     @Override
-    public String addComic(tComic comic) throws TException {
-        Comic comic1 = MappingUtils.thrift2db_Comic(comic);
-        comicRepositiory.save(comic1);
-        return ReponseUtils.returnComic(comic1).toString();
+    public String addComic(tComic tcomic) throws TException {
+//        Comic comic1 = MappingUtils.thrift2db_Comic(comic);
+        try {
+//            System.out.println(tcomic);
+            if(StringUtils.isEmpty(tcomic.getName()) || StringUtils.isEmpty(tcomic.getUrlname()))
+                return ReponseUtils.inValid();
+
+            Comic comic = MappingDataUtils.thrift2db_Comic(tcomic);
+
+            comicRepositiory.save(comic);
+
+            return ReponseUtils.success(ReponseUtils.returnComic(comic));
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ReponseUtils.serverError();
+        }
+
     }
 
 
