@@ -31,7 +31,7 @@
             <optional>true</optional>
         </dependency>
 
-        <!--lib cho crawler-->
+        <!--lib_crawler cho crawler-->
         <dependency>
             <groupId>vn.hcmus.fit</groupId>
             <artifactId>truyenfull.lib</artifactId>
@@ -39,7 +39,7 @@
             <scope>compile</scope>
         </dependency>
 
-        <!--lib cho thao tác vs data-->
+        <!--lib_crawler cho thao tác vs data-->
         <dependency>
             <groupId>vn.hcmus.fit</groupId>
             <artifactId>truyenfull.lib_data</artifactId>

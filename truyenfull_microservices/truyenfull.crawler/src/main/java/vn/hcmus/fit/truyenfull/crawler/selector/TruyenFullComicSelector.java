@@ -4,7 +4,7 @@ public class TruyenFullComicSelector implements ComicContentBaseSelector<TruyenF
 
     private TruyenFullComicSelector(){};
 
-//  Singleton Pattern
+    //  Singleton Pattern
     private static class SingletonHelper{
         private static final TruyenFullComicSelector INSTANCE = new TruyenFullComicSelector();
     }
@@ -34,9 +34,10 @@ public class TruyenFullComicSelector implements ComicContentBaseSelector<TruyenF
     }
 
     @Override
-    public String image() {
-        return "img[itemprop=image]";
+    public String vote_count() {
+        return "div.rate  div.small span[property=v:count]";
     }
+
 
     @Override
     public String doneFlag() {
@@ -44,9 +45,10 @@ public class TruyenFullComicSelector implements ComicContentBaseSelector<TruyenF
     }
 
     @Override
-    public String rate() {
-        return ".rate-holder";
+    public String rating() {
+        return "div.rate  div.small span[property=v:average]";
     }
+
 
     @Override
     public String dataFrom() {
@@ -56,6 +58,11 @@ public class TruyenFullComicSelector implements ComicContentBaseSelector<TruyenF
     @Override
     public String getChapterList() {
         return ".list-chapter li a";
+    }
+
+    @Override
+    public String reviews() {
+        return ".UFIImageBlockContent";
     }
 
     @Override

@@ -5,7 +5,7 @@ public class TruyenFullSelector implements
 
     @Override
     public String mainUrl() {
-        return "https://truyenfull.vn/danh-sach/ngon-tinh-sac/";
+        return "https://truyenfull.vn/danh-sach/";
     }
 
     @Override

@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import vn.hcmus.fit.truyenfull.crawler.controller.CrawlerController;
-import vn.hcmus.fit.truyenfull.lib.TruyenFullCrawlerService;
+import vn.hcmus.fit.truyenfull.lib_crawler.TruyenFullCrawlerService;
 
 /**
  * Created by Asus on 11/14/2019.

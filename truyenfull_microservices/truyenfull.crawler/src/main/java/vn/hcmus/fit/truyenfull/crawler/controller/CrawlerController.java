@@ -7,23 +7,17 @@ import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import vn.hcmus.fit.truyenfull.crawler.model.Catalog;
-import vn.hcmus.fit.truyenfull.crawler.repository.CatalogRepository;
-import vn.hcmus.fit.truyenfull.crawler.repository.ChapterRepository;
+import vn.hcmus.fit.truyenfull.crawler.model.*;
+import vn.hcmus.fit.truyenfull.crawler.repository.*;
 import vn.hcmus.fit.truyenfull.crawler.selector.TruyenFullCatalogSelector;
 import vn.hcmus.fit.truyenfull.crawler.selector.TruyenFullChapterSelector;
 import vn.hcmus.fit.truyenfull.crawler.selector.TruyenFullComicSelector;
 import vn.hcmus.fit.truyenfull.crawler.selector.TruyenFullSelector;
-import vn.hcmus.fit.truyenfull.crawler.model.Category;
-import vn.hcmus.fit.truyenfull.crawler.model.Chapter;
-import vn.hcmus.fit.truyenfull.crawler.model.Comic;
-import vn.hcmus.fit.truyenfull.crawler.repository.CategoryRepository;
-import vn.hcmus.fit.truyenfull.crawler.repository.ComicRepositiory;
-import vn.hcmus.fit.truyenfull.lib.TruyenFullCrawlerService;
+import vn.hcmus.fit.truyenfull.crawler.utils.ReponseUtil;
+import vn.hcmus.fit.truyenfull.lib_crawler.TruyenFullCrawlerService;
 
 import java.io.IOException;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -36,8 +30,11 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
     CategoryRepository categoryRepository;
     @Autowired
     ComicRepositiory comicRepsitory;
+
     @Autowired
     ChapterRepository chapterRepository;
+
+
 
     /**
      *  Crawler DANH SÁCH DANH MUC ở trang chủ: https://truyenfull.vn/
@@ -82,6 +79,7 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
             String urlName = temp[temp.length - 1];
             newCategory.setName(name);
             newCategory.setUrlname(urlName);
+            newCategory.setDescription(getDescriptionCategory(element.attr("href")));
             categories.add(newCategory);
         }
 
@@ -89,34 +87,53 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
         return categories;
     }
 
+    public String getDescriptionCategory(String url) throws IOException {
+        Document document = Jsoup.connect(url).get();
+        Element ele = document.selectFirst("div.panel-body");
+        return ele.text();
+    }
 
     /**
-     *  Crawler TRUYỆN ở trang chủ: https://truyenfull.vn/danh-sach/truyen-hot/
+     *  soluong: số lượng truyện cần crawl
+     *  url: danh muc cần crawl: truyen-hot, ngon-tin, truyen-hot,... Mặc định sẽ crawl ở truyện hot
      */
 //    @GetMapping("/crawlerComics")
-    public boolean crawler(int sl) throws IOException {
+    public String crawler(int soluong,String url) throws IOException {
+        if(categoryRepository.findAll().isEmpty())
+            getListCategory();
         TruyenFullSelector selector = new TruyenFullSelector();
         String urlComic,urlLatestChapter;
         boolean hasNext = false;
-        String urlNextPage = selector.mainUrl();
+//        Url danh muc truyen crawl
+        String urlNextPage = selector.mainUrl()+url+"/";
         int i =0 ;
+//        Danh sách truyện đã crawl
+        Set<Comic> res = new HashSet<>();
         do{
-            System.out.println("Truyen hot Page: ");
             Document document = Jsoup.connect(urlNextPage).get();
             Elements elements = document.select(selector.getComicRow());
             for (Element element : elements) {
-                System.out.println("Tên truyện: " + element.text());
+                System.out.println((i+1)+") Tên truyện: " + element.text());
 //                Lấy url của tên truyện
                 urlComic = element.select("a[itemprop=url]").first().attr("href");
 //                Lấy url của chapter mới nhất của truyện
                 urlLatestChapter = element.select("div.text-info > div > a").first().attr("href");
 //                System.out.println(urlComic);
-                if(crawlComic(urlComic,urlLatestChapter) == 1){
+
+                //Xét các danh mục cho truyện: New , Hot hay Full
+                boolean isNew,isFull,isHot;
+                isNew = element.select("span.label-new").first() != null;
+                isHot = element.select("span.label-hot").first() != null;
+                isFull = element.select("span.label-full").first() != null;
+
+                Comic crawledComic = crawlComic(urlComic,urlLatestChapter,isNew,isFull,isHot);
+                if( crawledComic != null){
                     i++;
+                    res.add(crawledComic);
                 }
-                if(i == sl)
+                if(i == soluong)
                     break;
-                System.out.println("Hoàn thành: "+element.text());
+                System.out.println("/t Status: Done");
             }
 
             Element nextPageButton = document.selectFirst(selector.getCatalogContentSelector().getNextComicPageSelector());
@@ -124,7 +141,7 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
                 if (!nextPageButton.attr("href").equals("javascript:void(0)")) {
                     hasNext = true;
                     urlNextPage = nextPageButton.attr("href");
-                    System.out.println("Truyen hot link page:" + urlNextPage);
+//                    System.out.println("Truyen hot link page:" + urlNextPage);
                 } else {
                     hasNext = false;
                 }
@@ -133,11 +150,11 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
                 hasNext = false;
             }
 
-        } while (hasNext && i<sl);
-        return true;
+        } while (hasNext && i<soluong);
+        return ReponseUtil.success(ReponseUtil.returnListNameComic(res.stream().collect(Collectors.toList())));
     }
 
-    public int crawlComic(String urlComic,String urlLatestChapter) throws IOException {
+    public Comic crawlComic(String urlComic,String urlLatestChapter,boolean isNew,boolean isHot,boolean isFull) throws IOException {
         TruyenFullComicSelector selector = TruyenFullComicSelector.getInstance();
         String url = urlComic;
 
@@ -161,26 +178,57 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
             // Và cũng đã crawl hết chapter thì không crawl nữa
 
             if(isCrawledChapter(urlLatestChapter)) {
-                System.out.println("Đã crawl truyện "+urlName);
-                return 0;
+//                System.out.println("Đã crawl truyện "+urlName);
+                return null;
             }
             // Ngược lại nếu còn chapter chưa crawl thì crawl chapters và add vào comic đó.
 
             else{
-                System.out.println(urlName + "->  còn thiếu chapter" );
+//                System.out.println(urlName + "->  còn thiếu chapter" );
                 crawlChapterOfCommic(url,testedComic);
-                return 0;
+                return null;
             }
         }
 
 //        Các trường hợp còn lại thì crawl bình thường, chapter được crawl rồi thì bỏ qua.
         Document document = Jsoup.connect(url).get();
         Comic crawledComic = new Comic();
+
+        //        Set catalog: New, Full, Hot cho comic
+        if(isNew){
+            Catalog catalog = catalogRepository.findByUrlname("new");
+            crawledComic.getCatalogList().add(catalog);
+        }
+        if(isHot){
+            Catalog catalog = catalogRepository.findByUrlname("hot");
+            crawledComic.getCatalogList().add(catalog);
+        }
+        if(isFull){
+            Catalog catalog = catalogRepository.findByUrlname("full");
+            crawledComic.getCatalogList().add(catalog);
+        }
+
 //        Set các field cho comic, trừ chapterlist
-        System.out.println("Set ten truyen");
         crawledComic.setName(document.selectFirst(selector.title()).text());
         crawledComic.setUrlname(urlName);
         crawledComic.setAuthor(document.selectFirst(selector.author()).text());
+
+        crawledComic.setDescription(document.selectFirst(selector.description()).text());
+        crawledComic.setRating(Double.parseDouble(document.selectFirst(selector.rating()).text()));
+        crawledComic.setVote_count(Integer.parseInt(document.selectFirst(selector.vote_count()).text()));
+
+//        Set reviews của comic
+        /*
+       Elements reviewRows = document.select(selector.reviews());
+        for (Element reviewRow : reviewRows) {
+            Review_Comic reviewComic = new Review_Comic();
+            reviewComic.setReviewerName(reviewRow.select("a.UFICommentActorName").text());
+            reviewComic.setContent(reviewRow.select("span._5mdd").text());
+            crawledComic.getReviewComicList().add(reviewComic);
+        }
+         */
+
+
         if(document.selectFirst(selector.doneFlag()) == null){
             crawledComic.setStatus("Đang ra");
         }
@@ -191,20 +239,16 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
                 ? document.selectFirst(selector.dataFrom()).text()
                 : "null";
         crawledComic.setSource(source);
-//        comicRepsitory.save(crawledComic);
 //      Set các thể loại cho comic
-        System.out.println("Set thể loại.");
         Elements genres = document.select(selector.category());
         for (Element genre : genres) {
             Category category =  categoryRepository.findByName(genre.attr("title"));
-            System.out.println("Set từng thể loại cho truyện");
 //            category.getComicList().add(crawledComic);
             crawledComic.getCategoryList().add(category);
         }
         comicRepsitory.save(crawledComic);
-        System.out.println("Set xong.");
         crawlChapterOfCommic(url,crawledComic);
-        return 1;
+        return crawledComic;
     }
 
     //    Hàm kiểm tra chapter đã được crawl chưa thông qua tên chapter
@@ -224,6 +268,7 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
             return false;
     }
 
+
     public void crawlChapterOfCommic(String commicUrl,Comic comic) throws IOException {
         boolean hasNext = false;
         TruyenFullComicSelector comicSelector = TruyenFullComicSelector.getInstance();
@@ -235,10 +280,8 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
 
             for (Element element : elements) {
                 urlChapter = element.attr("href");
-                System.out.println(urlChapter);
 //                Nếu chapter đã được crawled rồi thì pass
                 if(isCrawledChapter(urlChapter)) {
-                    System.out.println("Đã crawl chapter "+element.attr("href"));
                     continue;
                 }
                 crawlChapterDetails(urlChapter,comic,indexChapter);
@@ -249,7 +292,6 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
                 if (!nextPageButton.attr("href").equals("javascript:void(0)")) {
                     hasNext = true;
                     commicUrl = nextPageButton.attr("href");
-                    System.out.println("Chapter link:" + commicUrl);
                 } else {
                     hasNext = false;
                 }
@@ -266,13 +308,6 @@ public class CrawlerController implements TruyenFullCrawlerService.Iface{
         Chapter crawledChapter = new Chapter();
         Element chapter_title = document.selectFirst(chapterSelector.name_index());
         String title = "";
-//        if(chapter_title.attr("title").equals(null))
-//            System.out.println("Title chapter is null");
-//        else {
-//             title = chapter_title.attr("title");
-//        }
-//        int index = title.indexOf(":");
-//        Set các field cho chapter
         crawledChapter.setName(chapter_title.text());
         crawledChapter.setContent(document.selectFirst(chapterSelector.content()).text());
         crawledChapter.setIndex(new Long(chapterIndex));

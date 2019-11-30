@@ -1,202 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c0e9260-1c81-40c4-8c87-fa27bc29e930" name="Default Changelist" comment="">
+    <list default="true" id="7c0e9260-1c81-40c4-8c87-fa27bc29e930" name="Default Changelist" comment="Done!">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63f831ce-931f-4cbb-8605-b06d660349fa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/63f831ce-931f-4cbb-8605-b06d660349fa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/config/TruyenfullClientCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/config/TruyenfullClientCrawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/controller/TruyenfullControllerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/controller/TruyenfullControllerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/model/Comic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/utils/MappingUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/config/ThriftServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/config/ThriftServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/CrawlerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/CrawlerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Comic.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Comic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/repository/ListRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/ComicContentBaseSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/ComicContentBaseSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/TruyenFullComicSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/TruyenFullComicSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/TruyenFullSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/TruyenFullSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.crawler/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.crawler/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truyenfull.data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/TruyenfullData.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/TruyenfullData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/controller/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/controller/DataController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Chapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Comic.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Comic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/MappingUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ChapterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ChapterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ComicRepositiory.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ComicRepositiory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/ReponseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/ReponseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$AsyncClient$Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$AsyncClient$crawler_call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$AsyncClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$AsyncIface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$AsyncProcessor$crawler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$AsyncProcessor$crawler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$AsyncProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$Client$Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$Iface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$Processor$crawler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_args$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_args$crawler_argsStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_args$crawler_argsStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_args$crawler_argsTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_args$crawler_argsTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_args.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_result$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_result$crawler_resultStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_result$crawler_resultStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_result$crawler_resultTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_result$crawler_resultTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService$crawler_result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib/truyenfull.lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib/truyenfull.lib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.data/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.data/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/src/main/java/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/src/main/java/vn/hcmus/fit/truyenfull/lib_crawler/TruyenFullCrawlerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/src/main/resources/gen-java/com/mycompany/calculator/lib/TruyenFullCrawlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/target/classes/gen-java/com/mycompany/calculator/lib/TruyenFullCrawlerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/src/main/resources/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/src/main/resources/run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/src/main/resources/thrift-0.11.0.exe" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/src/main/resources/thrift-0.11.0.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/src/main/resources/truyenfull.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/src/main/resources/truyenfull.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/gen-java/com/mycompany/calculator/lib/TruyenFullCrawlerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/thrift-0.11.0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/target/classes/truyenfull.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/target/classes/truyenfull.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib/truyenfull.lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_crawler/truyenfull.lib_crawler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tChapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tChapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tComic.java" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tComic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$AsyncClient$Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$AsyncClient$getByName_call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$AsyncClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$AsyncIface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$AsyncProcessor$getByName$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$AsyncProcessor$getByName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$AsyncProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$Client$Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$Iface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$Processor$getByName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_args$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_args$getByName_argsStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_args$getByName_argsStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_args$getByName_argsTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_args$getByName_argsTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_args.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_result$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_result$getByName_resultStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_result$getByName_resultStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_result$getByName_resultTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_result$getByName_resultTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService$getByName_result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/ComicService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncClient$Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncClient$addComic_call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncClient$deleteComic_call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncClient$getAllComic_call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncClient$getComicByName_call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncClient$getComicsByCategory_call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncClient$updateComic_call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncIface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$addComic$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$addComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$deleteComic$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$deleteComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$getAllComic$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$getAllComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$getComicByName$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$getComicByName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$getComicsByCategory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$getComicsByCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$updateComic$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor$updateComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$AsyncProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Client$Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Iface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Processor$addComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Processor$deleteComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Processor$getAllComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Processor$getComicByName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Processor$getComicsByCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Processor$updateComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_args$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_args$addComic_argsStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_args$addComic_argsStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_args$addComic_argsTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_args$addComic_argsTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_args.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_result$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_result$addComic_resultStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_result$addComic_resultStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_result$addComic_resultTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_result$addComic_resultTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$addComic_result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_args$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_args$deleteComic_argsStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_args$deleteComic_argsStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_args$deleteComic_argsTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_args$deleteComic_argsTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_args.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_result$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_result$deleteComic_resultStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_result$deleteComic_resultStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_result$deleteComic_resultTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_result$deleteComic_resultTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$deleteComic_result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_args$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_args$getAllComic_argsStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_args$getAllComic_argsStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_args$getAllComic_argsTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_args$getAllComic_argsTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_args.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_result$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_result$getAllComic_resultStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_result$getAllComic_resultStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_result$getAllComic_resultTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_result$getAllComic_resultTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getAllComic_result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_args$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_args$getComicByName_argsStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_args$getComicByName_argsStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_args$getComicByName_argsTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_args$getComicByName_argsTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_args.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_result$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_result$getComicByName_resultStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_result$getComicByName_resultStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_result$getComicByName_resultTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_result$getComicByName_resultTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicByName_result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_args$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_args$getComicsByCategory_argsStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_args$getComicsByCategory_argsStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_args$getComicsByCategory_argsTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_args$getComicsByCategory_argsTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_args.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_result$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_result$getComicsByCategory_resultStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_result$getComicsByCategory_resultStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_result$getComicsByCategory_resultTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_result$getComicsByCategory_resultTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$getComicsByCategory_result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_args$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_args$updateComic_argsStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_args$updateComic_argsStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_args$updateComic_argsTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_args$updateComic_argsTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_args.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_result$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_result$updateComic_resultStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_result$updateComic_resultStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_result$updateComic_resultTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_result$updateComic_resultTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService$updateComic_result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tCategory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tCategory$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tCategory$tCategoryStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tCategory$tCategoryStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tCategory$tCategoryTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tCategory$tCategoryTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tChapter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tChapter$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tChapter$tChapterStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tChapter$tChapterStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tChapter$tChapterTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tChapter$tChapterTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tChapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tComic$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tComic$_Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tComic$tComicStandardScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tComic$tComicStandardSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tComic$tComicTupleScheme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tComic$tComicTupleSchemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/vn/hcmus/fit/truyenfull/lib_data/tComic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/src/main/resources/truyenfulldata.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_data/src/main/resources/truyenfulldata.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/src/main/resources/truyenfulldata_test.thrift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/truyenfulldata.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/truyenfulldata.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/target/classes/truyenfulldata_test.thrift" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/truyenfull.lib_data/truyenfull.lib_data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/truyenfull.lib_data/truyenfull.lib_data.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/truyenfull_restapi/target/" />
@@ -206,11 +65,15 @@
     <ignored path="$PROJECT_DIR$/truyenfull.data/target/" />
     <ignored path="$PROJECT_DIR$/truyenfull.lib_data/target/" />
     <ignored path="$PROJECT_DIR$/truyenfull.data_test/target/" />
+    <ignored path="$PROJECT_DIR$/truyenfull.lib_crawler/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -245,78 +108,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="das://63f831ce-931f-4cbb-8605-b06d660349fa/schema/truyenfull/table/category">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/controller/DataController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="169" column="9" lean-forward="true" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getAllComic#0;class#DataController#0" />
+                <element signature="method#updateComic#0;class#DataController#0" />
+                <element signature="method#getTopRatedComics#0;class#DataController#0" />
+                <element signature="method#getComicsByCriteria#0;class#DataController#0" />
+                <element signature="method#getLatestComic#0;class#DataController#0" />
+                <element signature="method#getFinishedComics#0;class#DataController#0" />
+                <element signature="method#getComicsByCategory#0;class#DataController#0" />
+                <element signature="method#getComicsByAuthor#0;class#DataController#0" />
+                <element signature="method#getChaptersOfComic#0;class#DataController#0" />
+                <element signature="method#getCategoriesOfComic#0;class#DataController#0" />
+                <element signature="method#searchComic#0;class#DataController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/controller/TruyenfullControllerAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="76" column="73" lean-forward="true" selection-start-line="76" selection-start-column="73" selection-end-line="76" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/CrawlerController.java">
+        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/TruyenfullData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2834">
-              <caret line="193" column="44" selection-start-line="193" selection-start-column="44" selection-end-line="193" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getListCatalog#0;class#CrawlerController#0" />
-                <element signature="method#getListCategory#0;class#CrawlerController#0" />
-              </folding>
+            <state relative-caret-position="728">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://63f831ce-931f-4cbb-8605-b06d660349fa/schema/truyenfull/table/comic_category">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://63f831ce-931f-4cbb-8605-b06d660349fa/schema/truyenfull/table/comic">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/controller/DataController.java">
+        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/config/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2697">
-              <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Chapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Category.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/ReponseUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-172">
-              <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+            <state relative-caret-position="1912">
+              <caret line="83" column="49" lean-forward="true" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -325,22 +164,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Comic.java">
+        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/config/ThriftServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="208">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/ComicController.java">
+        <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ComicRepositiory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+            <state relative-caret-position="612">
+              <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -351,6 +190,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -360,9 +200,16 @@
       <find>Proc</find>
       <find>handle</find>
       <find>Process</find>
+      <find>returnNameCategory</find>
+      <find>Iface</find>
+      <find>Story</find>
+      <find>story</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>returnCategory</replace>
+      <replace>Comic</replace>
+      <replace>comic</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Asus\Desktop\TESO Microservices\truyenfull_microservices\truyenfull.api</dir>
@@ -374,57 +221,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/fit/hcmus/truyenfullapi/config/ThriftClientConfig.java" />
-        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/fit/hcmus/truyenfullapi/config/TruyenfullClient.java" />
-        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/config/ThriftServer.java" />
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/fit/hcmus/truyenfullapi/controller/TruyenfullApi.java" />
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfull/api/TruyenfullapiApplication.java" />
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/config/ThriftClientConfig.java" />
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/controller/TruyenfullAPI.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/63f831ce-931f-4cbb-8605-b06d660349fa/console.sql" />
-        <option value="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Catalog.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ComicRepositiory.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/ResponseUtils.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ChapterRepository.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/CategoryRepository.java" />
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/config/TruyenfullClient.java" />
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/config/TruyenfullClientData.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/config/ThriftServer.java" />
-        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Category.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/config/ThriftComic.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data_test/pom.xml" />
-        <option value="$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/config/ThriftServer.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/controller/ComicController.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/model/Comic.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/model/Chapter.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/model/Category.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/utils/MappingUtils.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell_1" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/TruyenfullData.java" />
-        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/CrawlerController.java" />
-        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Comic.java" />
-        <option value="$PROJECT_DIR$/truyenfull.api/pom.xml" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/MappingUtils.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/constant/StatusCode.java" />
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/utils/MappingUtils.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/pom.xml" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/ReponseUtils.java" />
         <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/model/Category.java" />
         <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/model/Comic.java" />
         <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/model/Chapter.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Comic.java" />
         <option value="$PROJECT_DIR$/truyenfull.lib_data/pom.xml" />
-        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/controller/TruyenfullControllerAPI.java" />
         <option value="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/utils/MappingUtils.java" />
         <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/utils/MappingAPIUtils.java" />
-        <option value="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tComic.java" />
         <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/MappingDataUtils.java" />
-        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/controller/DataController.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ChapterRepository.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/PaginationUtils.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Review_Comic.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Category.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Catalog.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell_1" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/ComicContentBaseSelector.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/repository/ReviewComicRepository.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/TruyenFullComicSelector.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Review_Comic.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/CatalogRepository.java" />
+        <option value="$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tComic.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/TruyenFullSelector.java" />
+        <option value="$PROJECT_DIR$/truyenfull.lib/src/main/java/vn/hcmus/fit/truyenfull/lib/TruyenFullCrawlerService.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/exceptions/ResourceNotFoundException.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/ComicController.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/projections/ComicIdAndName.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/specification/SearchOperation.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/specification/SearchCriteria.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/specification/ComicSpecificationBuilder.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/ReponseUtils.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/specification/ComicSpecification.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/pom.xml" />
+        <option value="$PROJECT_DIR$/truyenfull.lib_crawler/pom.xml" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/pom.xml" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/CrawlerController.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Comic.java" />
+        <option value="$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Chapter.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/cache.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/RedisCacheUitls.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/RedisRepository.java" />
         <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Category.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Catalog.java" />
         <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Chapter.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/cache/RedisCacheUitls.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/config/RedisCache.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Comic.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ComicRepositiory.java" />
+        <option value="$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/controller/TruyenfullControllerAPI.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/controller/DataController.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/TruyenfullData.java" />
+        <option value="$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/config/RedisConfig.java" />
       </list>
     </option>
   </component>
@@ -456,8 +303,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -468,65 +315,25 @@
             <path>
               <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="truyenfull.data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="truyenfull.data" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.lib_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.lib_data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.lib_data" type="462c0819:PsiDirectoryNode" />
+              <item name="truyenfull.data" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.lib_data" type="462c0819:PsiDirectoryNode" />
+              <item name="truyenfull.data" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -534,21 +341,11 @@
             <path>
               <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.lib_data" type="462c0819:PsiDirectoryNode" />
+              <item name="truyenfull.data" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lib_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="truyenfull_microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="truyenfull.lib_data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lib_data" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="truyenfull_microservices" type="b2602c69:ProjectViewProjectNode" />
@@ -579,12 +376,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/truyenfull.api/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/truyenfull.lib_crawler/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1546875" />
     <property name="project.structure.side.proportion" value="0.30406654" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -593,10 +391,11 @@
       <recent name="vn.hcmus.fit.truyenfull.lib_data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vn.hcmus.fit.truyenfull.data.exceptions" />
+      <recent name="vn.hcmus.fit.truyenfull.crawler.model" />
+      <recent name="vn.hcmus.fit.truyenfull.data.model" />
       <recent name="vn.hcmus.fit.truyenfullapi.model" />
       <recent name="vn.hcmus.fit.truyenfull.data.constant" />
-      <recent name="vn.hcmus.fit.truyenfull.data.repository" />
-      <recent name="vn.hcmus.fit.truyenfull.data.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\Desktop\TESO Microservices\truyenfull_microservices\truyenfull.api\src\main\java\vn\hcmus\fit\truyenfullapi\model" />
@@ -620,9 +419,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.19781421" />
+    <option name="contentProportion" value="0.17595628" />
   </component>
-  <component name="RunManager" selected="Spring Boot.TruyenfullAPI">
+  <component name="RunManager" selected="Spring Boot.TruyenfullData">
     <configuration name="TruyenfullAPI" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="truyenfull.API" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="vn.hcmus.fit.truyenfullapi.TruyenfullAPI" />
@@ -666,12 +465,30 @@
       <workItem from="1573707267181" duration="6853000" />
       <workItem from="1573734135302" duration="13566000" />
       <workItem from="1573798912161" duration="20643000" />
-      <workItem from="1574070727836" duration="12942000" />
+      <workItem from="1574070727836" duration="13425000" />
+      <workItem from="1574423770551" duration="12193000" />
+      <workItem from="1574585735793" duration="20622000" />
+      <workItem from="1574683024423" duration="6624000" />
+      <workItem from="1574826402278" duration="2465000" />
+      <workItem from="1574832356845" duration="284000" />
+      <workItem from="1574832781970" duration="4612000" />
+      <workItem from="1574854033707" duration="1783000" />
+      <workItem from="1574952550022" duration="10258000" />
+      <workItem from="1574996592248" duration="23697000" />
+      <workItem from="1575096993802" duration="26012000" />
     </task>
+    <task id="LOCAL-00001" summary="add &quot;improve&quot; response, mapping obj using Dozer,...">
+      <created>1574091196897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574091196897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58866000" />
+    <option name="totallyTimeSpent" value="167899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,7 +502,7 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26152197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22936763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -695,7 +512,7 @@
       <window_info id="Job Explorer" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289183" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5824176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -709,25 +526,70 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4994641" weight="0.289011" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4994641" weight="0.35274726" />
       <window_info anchor="bottom" id="DB Execution Console" order="16" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.12527473" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.8296703" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.42967033" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.5949367" weight="0.18435155" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.59327215" weight="0.18435155" />
       <window_info anchor="right" id="Codota" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" x="0" y="0" width="434" height="898" id="Documentation" order="6" sideWeight="0.38316584" side_tool="true" visible="true" weight="0.13879958" />
-      <window_info anchor="right" id="Database" order="7" sideWeight="0.61683416" visible="true" weight="0.13879958" />
+      <window_info anchor="right" x="0" y="0" width="434" height="898" id="Documentation" order="6" sideWeight="0.4043956" side_tool="true" visible="true" weight="0.1329046" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.5956044" weight="0.05091104" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="right" id="FAQ Robot" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22936763" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="DB Browser" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Project Explorer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Job Explorer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5824176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005359" side_tool="true" weight="0.34615386" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4994641" weight="0.8230769" />
+      <window_info anchor="bottom" id="DB Execution Console" order="16" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.8406593" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.42967033" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.59327215" weight="0.18435155" />
+      <window_info anchor="right" id="Codota" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" x="0" y="0" width="434" height="898" id="Documentation" order="6" sideWeight="0.4043956" side_tool="true" visible="true" weight="0.05091104" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.5956044" visible="true" weight="0.05091104" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="FAQ Robot" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add &quot;improve&quot; response, mapping obj using Dozer,..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add &quot;improve&quot; response, mapping obj using Dozer,..." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -746,284 +608,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.lib/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/config/ThriftServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ComicRepositiory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/config/TruyenfullClientData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="96" selection-start-line="14" selection-start-column="96" selection-end-line="14" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data_test/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/config/ThriftServer.java" />
-    <entry file="file://$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/controller/ComicController.java" />
-    <entry file="file://$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/model/Comic.java" />
-    <entry file="file://$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/model/Chapter.java" />
-    <entry file="file://$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/model/Category.java" />
-    <entry file="file://$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/TruyenfulldatatestApplication.java" />
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Chapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/TruyenfullCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data_test/src/main/java/vn/hcmus/fit/truyenfulldatatest/utils/MappingUtils.java" />
-    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Comic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/constant/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/MappingUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="44" selection-start-line="10" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/utils/MappingUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/utils/ReponseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="139" selection-start-line="139" selection-end-line="170" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/config/ThriftServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/TruyenfullData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://63f831ce-931f-4cbb-8605-b06d660349fa/schema/truyenfull/table/chapter">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="37" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2444">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="12" column="37" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tChapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2600">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/model/Chapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/model/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.lib_data/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/utils/MappingUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#4203#4204#0" expanded="true" />
-            <element signature="e#4250#4251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/TruyenfullAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tComic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/controller/TruyenfullControllerAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/utils/MappingAPIUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#db2thrift_Chapter#1;class#MappingAPIUtils#0" />
-            <element signature="method#db2thrift_Category#1;class#MappingAPIUtils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/model/Comic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/MappingDataUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#thrift2db_Chapter#0;class#MappingDataUtils#0" />
-            <element signature="method#thrift2db_Chapter#1;class#MappingDataUtils#0" />
-            <element signature="method#thrift2db_Category#1;class#MappingDataUtils#0" />
-            <element signature="method#thrift2db_Comic#0;class#MappingDataUtils#0" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1034,10 +622,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://63f831ce-931f-4cbb-8605-b06d660349fa/schema/truyenfull/table/category">
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/CatalogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/selector/TruyenFullSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/exceptions/ResourceNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/PaginationUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/model/Comic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="874" column="12" selection-start-line="874" selection-start-column="12" selection-end-line="874" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://63f831ce-931f-4cbb-8605-b06d660349fa/schema/truyenfull/table/catalog">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/config/TruyenfullClientCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/ComicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/projections/ComicIdAndName.java" />
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/specification/ComicSpecificationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/utils/MappingAPIUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="52" column="29" selection-start-line="51" selection-start-column="16" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#db2thrift_Chapter#1;class#MappingAPIUtils#0" />
+            <element signature="method#db2thrift_Category#1;class#MappingAPIUtils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1690">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/specification/SearchCriteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/specification/SearchOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/specification/ComicSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.lib_crawler/src/main/java/vn/hcmus/fit/truyenfull/lib_crawler/TruyenFullCrawlerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.lib_crawler/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="64" column="59" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/config/ThriftServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Review_Comic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/CrawlerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getListCatalog#0;class#CrawlerController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Comic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1820">
+          <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Catalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/model/Chapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ChapterRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="78" lean-forward="true" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.1.RELEASE/spring-data-commons-2.2.1.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.1.RELEASE/spring-data-redis-2.2.1.RELEASE.jar!/org/springframework/data/redis/core/HashOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://63f831ce-931f-4cbb-8605-b06d660349fa/schema/truyenfull/table/chapter">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1048,63 +874,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/ComicController.java">
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/RedisRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+        <state relative-caret-position="656">
+          <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/ReponseUtils.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="243">
+          <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="234">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/controller/DataController.java">
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Catalog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2697">
-          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state relative-caret-position="182">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Chapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="355">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/utils/ReponseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2153">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#returnChapter#0;class#ReponseUtils#0" />
+            <element signature="method#returnChapterWithoutContent#0;class#ReponseUtils#0" />
+            <element signature="method#returnListChapter#0;class#ReponseUtils#0" />
+            <element signature="method#returnListComic#0;class#ReponseUtils#0" />
+            <element signature="method#returnListNameComic#0;class#ReponseUtils#0" />
+            <element signature="method#returnCategory#0;class#ReponseUtils#0" />
+            <element signature="method#returnNameCategory#0;class#ReponseUtils#0" />
+            <element signature="method#returnListCategory#0;class#ReponseUtils#0" />
+            <element signature="method#returnListNameCategory#0;class#ReponseUtils#0" />
+            <element signature="method#successBodyPagination#0;class#ReponseUtils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/cache/RedisCacheUitls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/config/ThriftServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/model/Comic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="338">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truyenfull.crawler/src/main/java/vn/hcmus/fit/truyenfull/crawler/controller/CrawlerController.java">
+    <entry file="file://$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/TruyenFullDataService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2834">
-          <caret line="193" column="44" selection-start-line="193" selection-start-column="44" selection-end-line="193" selection-end-column="44" />
+        <state relative-caret-position="182">
+          <caret line="173" column="28" selection-start-line="173" selection-start-column="28" selection-end-line="173" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.lib_data/src/main/java/vn/hcmus/fit/truyenfull/lib_data/tComic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/repository/ComicRepositiory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getListCatalog#0;class#CrawlerController#0" />
-            <element signature="method#getListCategory#0;class#CrawlerController#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/controller/DataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="169" column="9" lean-forward="true" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getAllComic#0;class#DataController#0" />
+            <element signature="method#updateComic#0;class#DataController#0" />
+            <element signature="method#getTopRatedComics#0;class#DataController#0" />
+            <element signature="method#getComicsByCriteria#0;class#DataController#0" />
+            <element signature="method#getLatestComic#0;class#DataController#0" />
+            <element signature="method#getFinishedComics#0;class#DataController#0" />
+            <element signature="method#getComicsByCategory#0;class#DataController#0" />
+            <element signature="method#getComicsByAuthor#0;class#DataController#0" />
+            <element signature="method#getChaptersOfComic#0;class#DataController#0" />
+            <element signature="method#getCategoriesOfComic#0;class#DataController#0" />
+            <element signature="method#searchComic#0;class#DataController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/config/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1912">
+          <caret line="83" column="49" lean-forward="true" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.api/src/main/java/vn/hcmus/fit/truyenfullapi/controller/TruyenfullControllerAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="76" column="73" lean-forward="true" selection-start-line="76" selection-start-column="73" selection-end-line="76" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truyenfull.data/src/main/java/vn/hcmus/fit/truyenfull/data/TruyenfullData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>

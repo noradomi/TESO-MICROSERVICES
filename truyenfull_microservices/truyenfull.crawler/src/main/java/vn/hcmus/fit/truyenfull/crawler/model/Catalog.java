@@ -21,9 +21,7 @@ public class Catalog {
     @Column(unique = true)
     private String urlname;
 
-    @ManyToMany(cascade = CascadeType.MERGE,fetch = FetchType.LAZY)
-    @JoinTable(name="comic_catalog",
-            joinColumns = @JoinColumn(name = "catalog_id"),
-            inverseJoinColumns = @JoinColumn(name = "comic_id"))
+    @ManyToMany(cascade = CascadeType.MERGE,fetch = FetchType.EAGER
+    ,mappedBy = "catalogList")
     private List<Comic> comics;
 }

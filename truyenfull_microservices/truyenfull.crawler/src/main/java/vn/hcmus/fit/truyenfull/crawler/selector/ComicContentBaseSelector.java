@@ -9,20 +9,23 @@ public interface ComicContentBaseSelector<T extends ChapterContentBaseSelector>{
 
     String description();
 
-    String image();
+    String vote_count();
 
     String doneFlag();
 
-    String rate();
+    String rating();
 
     String dataFrom();
 
     String getChapterList();
+
+    String reviews();
 
     T getChapterSelector();
 
     String getNextChapterPageSelector();
 
     String getCurrChapterPageSelector();
+
 
 }

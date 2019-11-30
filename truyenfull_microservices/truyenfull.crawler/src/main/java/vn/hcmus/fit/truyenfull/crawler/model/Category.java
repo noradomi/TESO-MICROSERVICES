@@ -22,14 +22,25 @@ public class Category {
     @Column(unique = true)
     private String urlname;
 
-    //    @ManyToMany(mappedBy = "categoryList")
-    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinTable(name="comic_category",
-            joinColumns = @JoinColumn(name = "category_id"),
-            inverseJoinColumns = @JoinColumn(name = "comic_id"))
+    @Column(columnDefinition = "TEXT")
+    private String description;
+
+
+    @ManyToMany(fetch = FetchType.EAGER,cascade = {
+            CascadeType.PERSIST,
+            CascadeType.MERGE
+    },mappedBy = "categoryList")
+//    @JoinTable(name="comic_category",
+//            joinColumns = @JoinColumn(name = "category_id"),
+//            inverseJoinColumns = @JoinColumn(name = "comic_id"))
     private List<Comic> comicList = new ArrayList<>();
 
-    public void addComic(Comic comic){
-        comicList.add(comic);
+    public Category() {
+    }
+
+    public Category(String name, String urlname, List<Comic> comicList) {
+        this.name = name;
+        this.urlname = urlname;
+        this.comicList = comicList;
     }
 }

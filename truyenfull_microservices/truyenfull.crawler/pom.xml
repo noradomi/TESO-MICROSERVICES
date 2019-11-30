@@ -62,7 +62,7 @@
 
         <dependency>
             <groupId>vn.hcmus.fit</groupId>
-            <artifactId>truyenfull.lib</artifactId>
+            <artifactId>truyenfull.lib_crawler</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>

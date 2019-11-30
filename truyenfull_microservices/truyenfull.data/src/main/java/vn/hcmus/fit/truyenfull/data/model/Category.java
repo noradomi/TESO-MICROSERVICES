@@ -12,6 +12,7 @@ import java.util.List;
 @Entity
 @Table(name = "category")
 public class Category {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -21,6 +22,9 @@ public class Category {
 
     @Column(unique = true)
     private String urlname;
+
+    @Column(columnDefinition = "TEXT")
+    private String description;
 
     //    @ManyToMany(mappedBy = "categoryList")
     @ManyToMany(fetch = FetchType.EAGER,cascade = {

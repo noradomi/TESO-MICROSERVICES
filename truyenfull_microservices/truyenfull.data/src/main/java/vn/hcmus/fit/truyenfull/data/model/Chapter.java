@@ -1,5 +1,6 @@
 package vn.hcmus.fit.truyenfull.data.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -7,7 +8,8 @@ import javax.persistence.*;
 @Data
 @Entity
 @Table(name = "chapter")
-public class Chapter {
+public class Chapter implements Comparable< Chapter >{
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -21,6 +23,7 @@ public class Chapter {
     @Column(columnDefinition = "TEXT")
     private String content;
 
+    @JsonIgnore
     @ManyToOne
     private Comic comic;
 
@@ -32,5 +35,10 @@ public class Chapter {
         this.name = name;
         this.content = content;
         this.comic = comic;
+    }
+
+    @Override
+    public int compareTo(Chapter o){
+        return this.getId().compareTo(o.getId());
     }
 }

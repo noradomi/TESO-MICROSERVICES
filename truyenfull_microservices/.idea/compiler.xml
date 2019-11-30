@@ -10,7 +10,7 @@
         <module name="truyenfull.crawler" />
         <module name="truyenfull.data" />
         <module name="truyenfull.data_test" />
-        <module name="truyenfull.lib" />
+        <module name="truyenfull.lib_crawler" />
         <module name="truyenfull.lib_data" />
         <module name="truyenfull_restapi" />
       </profile>
@@ -19,8 +19,8 @@
       <module name="truyenfull.API" target="1.8" />
       <module name="truyenfull.crawler" target="1.8" />
       <module name="truyenfull.data" target="1.8" />
-      <module name="truyenfull.lib" target="8" />
-      <module name="truyenfull.lib_data" target="8" />
+      <module name="truyenfull.lib_crawler" target="6" />
+      <module name="truyenfull.lib_data" target="7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

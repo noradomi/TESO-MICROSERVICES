@@ -4,7 +4,7 @@ import org.apache.thrift.protocol.TProtocolFactory;
 import org.apache.thrift.transport.THttpClient;
 import org.apache.thrift.transport.TTransportException;
 import org.springframework.stereotype.Component;
-import vn.hcmus.fit.truyenfull.lib.TruyenFullCrawlerService;
+import vn.hcmus.fit.truyenfull.lib_crawler.TruyenFullCrawlerService;
 
 /**
  * Created by Asus on 11/14/2019.
